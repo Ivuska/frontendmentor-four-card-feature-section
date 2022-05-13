@@ -1,0 +1,29 @@
+{
+  "name": "four-card-feature-section-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build":"parcel build src/index.html --no-minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivuska/frontendmentor-four-card-feature-section.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivuska/frontendmentor-four-card-feature-section/issues"
+  },
+  "homepage": "https://github.com/Ivuska/frontendmentor-four-card-feature-section#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.3.1",
+    "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "parcel": "^2.0.0-rc.0"
+  }
+}
