@@ -1,0 +1,55 @@
+@use 'functions' as *;
+@use 'breakpoints' as *;
+@use 'colors' as *;
+@use 'fonts' as *;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $white;
+  align-items: center;
+  min-height: 100vh;
+  font-family: $font-primary;
+  font-weight: $weight-normal;
+  line-height: 1.5;
+  font-size: $base-font-size;
+  padding: 2rem;
+
+  @media only screen and (min-width: $desktop-layout) {
+  }
+}
+
+h1 {
+
+
+  @media only screen and (min-width: $desktop-layout) {
+
+  }
+}
