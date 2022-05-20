@@ -1,1 +1,18 @@
 @use '../abstracts/index' as *;
+
+.introduction-container {
+  align-items: center;
+  justify-content: column;
+  max-width: toRem(375);
+  width: 90%;
+  text-align:center;
+}
+.semi-header {
+  margin-bottom: 5px;
+  font-size: $base-font-size*1.1;
+}
+
+.perex {
+  margin-bottom: 20px;
+  font-size: $base-font-size;
+}

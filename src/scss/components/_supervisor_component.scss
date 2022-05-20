@@ -1,0 +1,23 @@
+@use '../abstracts/index' as *;
+
+.supervisor-container {
+  align-items: center;
+  justify-content: column;
+  max-width: toRem(375);
+  width: 90%;
+  text-align: left;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 3px 5px 10px $grayish-blue, -3px 5px 10px $grayish-blue, 0px -5px 0 $cyan;
+
+  @media only screen and (min-width: $desktop-layout) {
+  }
+}
+
+.supervisor-icon {
+  width: 48px;
+  height: 48px;
+  display:block;
+  margin-left: auto;
+}
