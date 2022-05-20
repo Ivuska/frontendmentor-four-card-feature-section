@@ -3,7 +3,7 @@
 .karma-container {
   align-items: center;
   justify-content: column;
-  max-width: toRem(375);
+  max-width: to-rem(375);
   width: 90%;
   text-align: left;
   margin-top: 30px;
@@ -12,6 +12,7 @@
   box-shadow: 3px 5px 10px $grayish-blue, -3px 5px 10px $grayish-blue, 0px -5px 0 $orange;
 
   @media only screen and (min-width: $desktop-layout) {
+    max-width: to-rem(300);
   }
 }
 
