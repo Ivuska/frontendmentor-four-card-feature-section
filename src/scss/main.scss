@@ -1,6 +1,3 @@
 @use "components/introduction" as *;
-@use "components/calculator_component" as *;
-@use "components/karma_component" as *;
-@use "components/supervisor_component" as *;
-@use "components/team_builder_component" as *;
+@use "components/card" as *;
 @use "abstracts/index" as *;
