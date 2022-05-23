@@ -15,10 +15,10 @@ html {
 
 .sr-only {
   position: absolute;
-  width: 1px;
-  height: 1px;
+  width: to-rem(1);
+  height: to-rem(1);
   padding: 0;
-  margin: -1px;
+  margin: to-rem(-1);
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
@@ -49,21 +49,21 @@ body {
 h1 {
   color: $very-dark-blue;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: to-rem(10);
   font-size: $base-font-size*1.1;
 }
 
 h2 {
   color: $very-dark-blue;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: to-rem(8);
   font-size: $weight-bold;
   font-size: $base-font-size*1.3;
 }
 
 p {
   margin-top: 0;
-  margin-bottom:15px;
+  margin-bottom:to-rem(15);
   font-size: $weight-normal;
   font-size: $base-font-size*0.9;
 }

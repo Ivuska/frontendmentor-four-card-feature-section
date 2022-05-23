@@ -12,11 +12,11 @@
   }
 }
 .semi-header {
-  margin-bottom: 5px;
+  margin-bottom: to-rem(5);
   font-size: $base-font-size*1.1;
 }
 
 .perex {
-  margin-bottom: 20px;
+  margin-bottom: to-rem(20);
   font-size: $base-font-size;
 }
