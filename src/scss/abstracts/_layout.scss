@@ -5,7 +5,6 @@
   display: grid;
   gap: to-rem(30) 0;
   grid-template-columns: 1fr;
-  grid-template-rows: 4fr;
   max-width: to-rem(375);
   justify-items: center;
   width: 100%;
@@ -16,7 +15,6 @@
   @media only screen and (min-width: $desktop-layout) {
     max-width: to-rem(900);
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 2fr;
     justify-items: center;
   }
 
