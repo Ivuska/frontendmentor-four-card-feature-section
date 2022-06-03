@@ -3,19 +3,28 @@
 
 .card-container {
   display: grid;
-  gap: to-rem(30) 0;
-  grid-template-columns: 1fr;
+  gap: to-rem(30);
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: 
+    "supervisor"
+    "team-builder"
+    "karma"
+    "calculator";
   max-width: to-rem(375);
   justify-items: center;
   width: 100%;
   margin: auto;
   overflow: hidden;
-  padding: to-rem(15) 0;
-
+  padding: to-rem(15);
   @media only screen and (min-width: $desktop-layout) {
     max-width: to-rem(900);
     grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "supervisor team-builder calculator"
+    "supervisor karma calculator";
+    align-items: center;
+
   }
 
 }
@@ -25,6 +34,7 @@
   width: 100%;
   margin: auto;
   overflow: hidden;
+
   @media only screen and (min-width: $desktop-layout) {
     max-width: to-rem(900);
   }

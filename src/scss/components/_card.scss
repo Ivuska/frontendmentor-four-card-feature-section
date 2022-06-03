@@ -2,7 +2,6 @@
 
 .card {
   max-width: to-rem(375);
-  width: 90%;
   text-align: left;
   padding: to-rem(15);
   border-radius: to-rem(5);
@@ -21,21 +20,22 @@
 
 .supervisor {
   box-shadow: to-rem(3) to-rem(5) to-rem(10) $grayish-blue, to-rem(-3) to-rem(5) to-rem(10) $grayish-blue, 0 to-rem(-5) 0 $cyan;
-
+  grid-area: supervisor;
 }
 
 .team-builder {
   box-shadow: to-rem(3) to-rem(5) to-rem(10) $grayish-blue, to-rem(-3) to-rem(5) to-rem(10) $grayish-blue, 0 to-rem(-5) 0 $red;
-
+  grid-area: team-builder;
 }
 
 .karma {
   box-shadow: to-rem(3) to-rem(5) to-rem(10) $grayish-blue, to-rem(-3) to-rem(5) to-rem(10) $grayish-blue, 0 to-rem(-5) 0 $orange;
-
+  grid-area: karma;
 }
 
 .calculator {
   box-shadow: to-rem(3) to-rem(5) to-rem(10) $grayish-blue, to-rem(-3) to-rem(5) to-rem(10) $grayish-blue, 0 to-rem(-5) 0 $blue;
+  grid-area: calculator;
 
 
   @media only screen and (min-width: $desktop-layout) {
